@@ -111,6 +111,16 @@ input[type="radio"]:checked+label .item-accordeon__header svg {
     transform: rotate(180deg);
 }
 
+@media (min-width: 991px) {
+    h1 {
+        font-size: 3.125rem;
+    }
+
+    h4 {
+        font-size: 2rem;
+    }
+}
+
 @media (max-width: 991px) {
     h1 {
         font-size: 2rem;
