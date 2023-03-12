@@ -104,6 +104,7 @@ img {
 }
 
 input[type="radio"]:checked+label .item-accordeon__content {
+    background-color: pink;
     max-height: 100vh;
 }
 
