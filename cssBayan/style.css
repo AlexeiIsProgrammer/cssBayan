@@ -2,7 +2,7 @@
 
 h1 {
     font-size: 3.125rem;
-    margin: 3.125rem auto 0px auto;
+    margin: 3.125rem auto 0 auto;
     background-color: #fff79f;
     padding: 0.625rem;
     border-radius: 0.625rem;
@@ -25,13 +25,13 @@ body {
     z-index: 1000;
     background-color: white;
     margin: 0 auto;
-    max-width: 600px;
+    max-width: 37.5rem;
     border-radius: 0.625rem;
 }
 
 .accordeon__container {
     border-radius: 0.625rem;
-    border: 1px solid gray;
+    border: 0.0625rem solid gray;
 }
 
 .accordeon__list {
@@ -48,7 +48,6 @@ body {
 
 .item-accordeon {
     border-radius: 0.625rem;
-    /* padding: 10px; */
     transition: .3s ease all;
     width: 100%;
 }
@@ -69,7 +68,7 @@ body {
 }
 
 .item-accordeon__content {
-    max-height: 0px;
+    max-height: 0vh;
     overflow: hidden;
     transition: 1s ease all;
 }
